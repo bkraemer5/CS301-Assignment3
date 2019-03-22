@@ -1,10 +1,10 @@
 #include "person.h"
 
-Person :: Person() {
-  lastName = "";
-  firstName = "";
-  payRate = 0.0;
-  hoursWorked = 0.0;
+Person :: Person(string fname, string lname, float rate, float hours) {
+  lastName = lname;
+  firstName = fname;
+  payRate = rate;
+  hoursWorked = hours;
 }
 
 void Person :: setLastName(string lName) {
