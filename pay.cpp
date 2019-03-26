@@ -1,3 +1,5 @@
+//Brittany Kraemer
+//CS301 - 03
 #include "person.cpp"
 #include <iostream>
 #include <fstream>
